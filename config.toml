@@ -1,0 +1,28 @@
+baseURL = "http://coder.ninja/"
+languageCode = "en-us"
+title = "Coder.Ninja"
+theme = "hugo-pure"
+
+paginate = 3
+enableEmoji = true
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[params.social]
+    GitHub = "https://github.com/ImJustMatt"
+    LinkedIn = "https://www.linkedin.com/in/matthew-lucas-coder/"
+    Twitter = "https://twitter.com/LeFauxMatt"
+    Twitch = "https://www.twitch.tv/lefauxmatt"
+    YouTube = "https://www.youtube.com/channel/UCo4pNf-ZvMj-BjGrblaL8dw"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
